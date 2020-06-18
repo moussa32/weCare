@@ -1,0 +1,77 @@
+@media screen and (max-width:992px) {
+  .navbar-toggler>i {
+    color: #000;
+  }
+
+  .nav-item>a {
+    color: var(--main-color) !important;
+    text-align: center;
+  }
+
+  .navbar-active>a {
+    color: white !important;
+  }
+
+  .background-wrapper {
+    clip-path: none;
+    background: none;
+    height: 0;
+    width: 0;
+  }
+
+  .left-div {
+    text-align: center;
+  }
+
+  .play-button {
+    display: none;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .best-deals-header {
+    margin-bottom: 6rem !important;
+  }
+
+  .custom-card {
+    margin-top: 8rem;
+  }
+
+  .item-image {
+    height: 512px;
+  }
+
+  .baby-carrier {
+    text-align: center;
+  }
+
+  .left-babycaccier {
+    display: none;
+  }
+  .right-babycaccier{
+    padding-left: 15px;
+    text-align: center;
+  }
+  .article-image {
+    height: 30vw;
+  }
+
+  .review {
+    margin-bottom: 2rem;
+  }
+
+  #newsletter {
+    text-align: center;
+  }
+
+  .review-footer{
+    text-align: center;
+  }
+
+}
