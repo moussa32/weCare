@@ -27,14 +27,6 @@ body {
   left: calc(50vw - 75px);
 }
 
-.modal-settings {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background-color: var(--main-color);
-  color: #fff;
-}
-
 .loader::before, .loader::after {
   content: '';
   border: 1em solid var(--main-color);

@@ -484,70 +484,11 @@
       </div>
     </footer>
   </div>
-  <div class="modal fade" id="myModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Touchless interaction</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <p>First, calibrate WebGazer by following your mouse cursor with your eyes and
-            clicking a few different points in the page. Focus on the corners and borders
-            where you must look to scroll! Then click on the control buttons to start auto
-            scrolling or disable the red prediction dot.</p>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <button class="btn btn-success btn-sm" id="show-predictions">Show Current Eye Predictions</button>
-              </div>
-              <div class="col-md-6">
-                <button class="btn btn-danger btn-sm" id="hide-predictions">Hide Current Eye Predictions</button>
-              </div>
-            </div>
-            <div class="row mt-4">
-              <div class="col-md-6">
-                <button class="btn btn-success btn-sm" id="start-scrolling">Start Auto-Scrolling</button>
-              </div>
-              <div class="col-md-6">
-                <button class="btn btn-danger btn-sm" id="stop-scrolling">Stop Auto-Scrolling</button>
-              </div>
-              <div class="col-md-12">
-                <button class="btn btn-success btn-sm" id="hide-camera">Hide Camera</button>
-              </div>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="scroll-margin-perc">Scroll Margin Size Percentage</label>
-            <input type="number" class="form-control" id="scroll-margin-perc">
-
-            <label for="scroll-perc">Scroll Percentage</label>
-            <input type="number" class="form-control" id="scroll-perc">
-
-            <label for="scroll-duration">Scroll Duration (ms)</label>
-            <input type="number" class="form-control" id="scroll-duration">
-
-            <label for="number-avg">Number of Averages for Gaze Prediction</label>
-            <input type="number" class="form-control" id="number-avg">
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save settings</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a href="#" class="btn btn-lg modal-settings" role="button"><i class="fa fa-sliders" aria-hidden="true"></i></a>
   <!-- Js Files -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/loader.js"></script>
-  <script src="js/webgazer.min.js"></script>
-  <script src="js/gazerCore.js"></script>
 </body>
 
 </html>
